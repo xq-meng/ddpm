@@ -1,0 +1,13 @@
+{
+    "model": {
+        "time_step": 1000,
+        "unet": {
+            "channel_in": 1,
+            "channel_mult": [1, 2, 2]
+        },
+        "betas": {
+            "linear_start": 1e-6,
+            "linear_end": 1e-2
+        }
+    }
+}
